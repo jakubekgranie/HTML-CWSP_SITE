@@ -33,20 +33,21 @@
 					</div>
 				</div>
 			</a>
-			<a>
-				<div class="task2div">
-					<div class="container">
-						<p class="paragraph2">KLASYFIKACJA</p>
+			<div class="task2div-s">
+				<div class="container">
+					<p class="paragraph2">STATUS</p>
+				</div>
+				<div class="dropdown1">
+					<div class="statuscontainer">
+						<h5>Ostatnia aktuaizacja miała miejsce:</h5>
+						<h2><kbd>disabled</kbd></h2>
+						<h5>Temat ostatniej notatki:</h5>
+						<h2><kbd>disabled</kbd></h2>
+						<h5>Ostatnia aktuaizacja dat miała miejsce:</h5>
+						<h2><kbd>disabled</kbd></h2>
 					</div>
 				</div>
-			</a>
-			<a>
-				<div class="task2div">
-					<div class="container">
-						<p class="paragraph2">STATUS</p>
-					</div>
-				</div>
-			</a>
+			</div>
 			<a>
 				<div class="task2div">
 					<div class="container">
@@ -68,24 +69,64 @@
 			<h1 class="task1">Oficjalne archiwum notatek z CwŚP</h1>
 		</header>
 		<br>
-		<hr class="separator">
 		<a id="informacje"></a>
+		<hr class="separator">
 		<h1 class="welcome">Witaj na archiwum notatek z CwŚP!</h1>
+		<a id="administracja"></a>
 		<p class="welcome">Łatwo znajdziesz tutaj <mark>zdjęcia materiałów z lekcji, podanych przez nauczyciela, daty kartkówek i sprawdzianów</mark> w zawrotnym tempie.<br>
 		Zasoby są aktualizowane jak najszybciej, aby sprawdzić ostatnią datę aktualizacji wybierz opcję <i>"status"</i>.</p>
 		<br>
-		<a id="administracja"></a>
 		<section class="administracja">
 			<h1>Administracja</h1>
-			<h4 style="margin-bottom: 2px;">Protokolantki:</h4>
+			<h4 style="margin-bottom: 2px;">Protokolantki</h4>
 			<p class="paragraphsmall">Classified</p>
 			<p class="paragraphsmall">Classified</p>
 			<h4 style="margin-bottom: 2px;">Administracja strony</h4>
 			<p class="paragraphsmall">Classified</p>
 		</section>
-		<a id="notatki"></a>
+		<a id="daty"></a>
 		<hr class="separator">
+		<h1 class="daty">Daty</h1>
+		<p class="paragraph2" style="text-align: center;">Tu znajdziesz daty najbliższych sprawdzianów, projektów i zadań domowych.</p>
+		<br>
+		<div class="datycontainer">
+			<h4 class="sprawdzianhighlight">Placeholder sprawdzian:</h4>
+			<br>
+			<h4 class="kartkowkahighlight">Placeholder kartkówka:</h4>
+			<br>
+			<h4 class="projekthighlight">Placeholder projekt:</h4>
+			<br>
+			<h4 class="zadaniehighlight">Placeholder zadanie:</h4>
+			<br>
+			<h4 class="mischighlight">Placeholder różne:</h4>
+		</div>
+		<br>
+		<fieldset class="legendadaty">
+		<legend><p class="paragraphlegend">Legenda</p></legend>
+		<ul>
+			<li>
+				<p class="paragraphlegend inline">Kolor&nbsp;</p><p class="paragraphlegend inline" style="color: red"> czerwony</p><p class="paragraphlegend inline">: sprawdzian;</p>
+			</li>
+			<li>
+				<p class="paragraphlegend inline">Kolor&nbsp;</p><p class="paragraphlegend inline" style="color: #FF6666"> rózowy</p><p class="paragraphlegend inline">: kartkówka;</p>
+			</li>
+			<li>
+				<p class="paragraphlegend inline">Kolor&nbsp;</p><p class="paragraphlegend inline" style="color: #108AE5"> niebieski</p><p class="paragraphlegend inline">: projekt;</p>
+			</li>
+			<li>
+				<p class="paragraphlegend inline">Kolor&nbsp;</p><p class="paragraphlegend inline" style="color: #9F44F5"> fioletowy</p><p class="paragraphlegend inline">: zadanie domowe;</p>
+			</li>
+			<li>
+				<p class="paragraphlegend inline">Kolor&nbsp;</p><p class="paragraphlegend inline" style="color: #CE7E00"> brązowy</p><p class="paragraphlegend inline">: różne;</p>
+			</li>
+		</ul>
+		</fieldset>
+		<hr class="separator">
+		<a id="notatki"></a>
 		<h1 class="placeholder">(Tu znajdą się notatki)</h1>
 		<hr class="separator">
+		<footer class="footer1">
+
+		</footer>
 	</body>
 </html>

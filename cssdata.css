@@ -31,12 +31,14 @@ nav{
     height: 60px;
     font-family: 'Trebuchet MS', sans-serif;
     color: #000000;
+    z-index: 1;
     background-color: #BCBCBC;
     position: sticky;
+    top:0px;
 }
 div.task1div{
     cursor: pointer;
-    width: 25%;
+    width: 37.5%;
     height: 60px;
     border-style: solid;
     border-width: 0px 1px 0px 0px;
@@ -67,6 +69,29 @@ div.task2div{
     border-width: 0px 1px 0px 0px;
     border-color: #7C7C7C;
     float: left;
+}
+div.task2div-s{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 12.5%;
+    height: 60px;
+    position: relative;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #7C7C7C;
+    float: left;
+    cursor: help;
+}
+div.task2div-s:hover{
+    background-color: #575757;
+    color: white;
+    transition-duration: 0.35s;
+    transition-timing-function: ease-out;
+}
+div.task2div-s:hover div.dropdown1{
+    display: block;
+    background-color: #575757;
 }
 div.task2div-last{
     box-sizing: border-box;
@@ -162,4 +187,97 @@ hr.separator{
     margin-top: 30px;
     margin-bottom: 30px;
     border: none;
+}
+div.dropdown1{
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    background-color: #BEBEBE;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.statuscontainer{
+    background-color: #575757;
+    text-align: center;
+    position: relative;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0;
+    display: block;
+}
+.monospace{
+    font-family:'Lucida Console', monospace";
+}
+h5{
+    margin-bottom: 15px;
+}
+h1.daty{
+    text-align: center;
+    color: #7CB105;
+}
+div.datycontainer{
+    background-color:#eeeeee;
+    border-color: #8E8E8E;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 2px;
+    width: 33%;
+    margin: auto;
+}
+h4.sprawdzianhighlight{
+    color: #FF0000;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+h4.kartkowkahighlight{
+    color: #FF6666;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+h4.projekthighlight{
+    color: #108AE5;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+h4.zadaniehighlight{
+    color: #9F44F5;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+h4.mischighlight{
+    color: #CE7E00;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+fieldset.legendadaty{
+    width: 32%;
+    margin: auto;
+    border-color: #7CB105;
+    border-width: 6px;
+    border-style: double;
+}
+p.paragraphlegend{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.inline{
+    display: inline-block;
+}
+footer.footer1{
+    width: 100%;
+    height: 180px;
+    background-color: #575757;
 }

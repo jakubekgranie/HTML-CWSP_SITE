@@ -6,7 +6,7 @@ All image assets will not be present to preserve protocolants' privacy.
 Is site available on a domain: X
 
 
-Version: pre-alpha 0.1 (see the changelog for more information)
+Version: pre-alpha 0.7 (see the changelog for more information)
 
 
 Made with VSC and GitHub desktop app

@@ -189,7 +189,7 @@ hr.separator{
     border: none;
 }
 div.dropdown1{
-    width: 100%;
+    width: 100% + 1px;
     display: none;
     position: absolute;
     z-index: 2;
@@ -280,4 +280,34 @@ footer.footer1{
     width: 100%;
     height: 180px;
     background-color: #575757;
+    position: relative;
+}
+div.imageicons{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+div.imagegit{
+    margin:0;
+    display: inline-block;
+}
+img.imageexcl
+{
+    height: 48px;
+    width: 48px;
+}
+img.imagegit
+{
+    height: 48px;
+    width: 48px;
+}
+img.imagegit:hover{
+    filter: invert(1);
+    transition-timing-function: ease-out;
+    transition-duration: 0.35s;
+}
+img.imageexcl:hover{
+    filter: saturate(1000%);
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
 }

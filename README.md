@@ -12,4 +12,6 @@ Version: pre-alpha 0.7 (see the changelog for more information)
 Made with VSC and GitHub desktop app
 
 
-Current contributors: Jacob N (jakubekgranie)
+Current contributors: Jacob (jakubekgranie)
+
+Update: project terminated (lesson expiry).
